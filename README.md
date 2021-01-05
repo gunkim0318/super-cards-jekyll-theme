@@ -5,6 +5,7 @@
 ![image](https://user-images.githubusercontent.com/45007556/103619014-4ce7ea80-4f74-11eb-86de-d1c43bc3f866.png)
 ![image](https://user-images.githubusercontent.com/45007556/103619071-6ab54f80-4f74-11eb-87bf-12746d33ec80.png)
 ![image](https://user-images.githubusercontent.com/45007556/103620327-9cc7b100-4f76-11eb-8efc-97fec315fe39.png)
+![image](https://user-images.githubusercontent.com/45007556/103620685-45761080-4f77-11eb-8dc5-2354c034c2bf.png)
 ![image](https://user-images.githubusercontent.com/45007556/103619109-7ef94c80-4f74-11eb-932c-58ac0a544d13.png)
 
 # 카테고리 내비게이션 바에 추가하기
