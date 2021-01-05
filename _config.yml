@@ -1,0 +1,77 @@
+# Site settings
+title: your blog title
+email: your-email@domain.com
+description: > 
+  your description
+
+nav_title: "your blog nav title"
+
+# 게시글들을 모두 posts.json에 담아서 파싱하는 형태로 카테고리를 구현했는데,
+# 성능 상의 문제가 발생하지 않을까 대체 방법 고민중... 근데 포스트가 많은 편이 아니라 아직은 걱정 안해도 될 듯...
+nav:
+  Home:
+    - "/"
+  About:
+    - "/about/"
+  Think:
+    - "/categories?categoryName=Think"
+  Dev:
+    Spring:
+    Java:
+    JavaScript:
+    Python:
+    Other:
+    "Error Log":
+  Basic:
+    Algorithm:
+    "Data Structure":
+      
+baseurl: ""
+
+# 로컬 주소
+# url: "http://localhost:4000"
+
+# 운영 주소
+url: # url
+
+#sidebar
+default-image: webjeda-logo-big.jpg
+
+#공통 날짜 포맷
+base_date_format:
+  - "%y/%m/%d"
+  
+#footer
+built-by: webjeda
+
+copyright:
+   name: webjeda
+   link: 'http://blog.webjeda.com'
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+paginate: 6
+paginate_path: /page:num/
+
+# Tracker
+analytics: UA-83979019-1
+
+# Comments
+disqus: yes
+disqus-shortname: shot-name
+
+#social
+github: https://github.com/gunkim0318
+email: gunkim0318@gemail.com
+
+# Sass style
+sass:
+  style: compressed
+
+# Ruby Gems
+plugins: 
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+highlight_theme: tomorrow-night-blue
